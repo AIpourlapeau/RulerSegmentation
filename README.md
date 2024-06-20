@@ -1,4 +1,4 @@
-# RulerSegmentation dataset
+# RulerSegmentation test set
 
 [RulerSegmentation dataset](https://path/to/images)
 
