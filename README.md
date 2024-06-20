@@ -7,8 +7,8 @@ This dataset contains a collection of annotated dermoscopic images primarily use
 The of the dataset contains 100 images, and corresponds to the whole test set of the algorithm described on the paper.  **For now, we only published a sample of the annotations, but the whole dataset will be published after acceptation of our paper.**
 
 ## Dataset Structure
-**"images"**: The dataset contains dermoscopic images with varying resolutions and dimensions.
-**"annotation"**: Each image is accompanied by annotation data that identifies the locations of rulers and scales within the image. These annotations are represented as bounding boxes with specific coordinates and dimensions.
+- **"images"**: The dataset contains dermoscopic images with varying resolutions and dimensions.
+- **"annotation"**: Each image is accompanied by annotation data that identifies the locations of rulers and scales within the image. These annotations are represented as bounding boxes with specific coordinates and dimensions.
 
 ### Annotation CSV File: 
 The CSV file has the following columns:
@@ -48,10 +48,10 @@ Below are examples of the annotations for two images from the dataset:
 
 ### Notable Annotations
 
-**"Rulers"**: Identified by their characteristic elongated shapes and usually annotated with their orientation and dimensions.
-**"Scales"**: Annotated similarly to rulers but distinguished by their specific use-case and potentially different dimensions or orientations.
+- **"Rulers"**: Identified by their characteristic elongated shapes and usually annotated with their orientation and dimensions.
+- **"Scales"**: Annotated similarly to rulers but distinguished by their specific use-case and potentially different dimensions or orientations.
 
 
-The file `draw_ruler_annotation.py` is one example of how to plot the ruler lines and the scales on the images. In the folder *examples/*, we provide samples of annotated images (in blue our v2 version and in green the original version).
+The file `draw_ruler_annotation.py` is one example of how to plot the ruler lines and the scales on the images. In the folder *examples/*, we provide samples of annotated images (in green the ruler lines and in red the rectangle which heigt corresponds to the 1 mm scale of the image).
 
 <img title="a title" alt="ISIC.jpg" src="examples/Claire_Aless7_annotated.png"  width="500"> 
