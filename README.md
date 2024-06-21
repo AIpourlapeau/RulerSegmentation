@@ -17,7 +17,7 @@ The CSV file has the following columns:
 2. `image_width`: The width of the image in pixels.
 3. `image_height`: The height of the image in pixels.
 4. `discussions`: A column reserved for any discussions or notes about the annotations (currently empty).
-5. `source_url`: The url link of the image.
+5. `source`: The url link of the image.
 6. `view_annotation_result_Bounding-Box`: A JSON-formatted string containing a list of dictionaries. Each dictionary represents a bounding box with the following keys:
   * x: The x-coordinate of the bounding box center.
   * y: The y-coordinate of the bounding box center.
