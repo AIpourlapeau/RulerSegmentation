@@ -27,24 +27,16 @@ The CSV file has the following columns:
   * class_name: The class of the annotated object (e.g., "ruler", "scale").
 
 ### Example of Annotation Data
-Below are examples of the annotations for two images from the dataset:
+Below an examples of the annotations for one of the images from the dataset:
 
 - *Example 1*
 ```
-"image_path_local": "Claire_Aless1.jpg"
-"image_width": 1932
-"image_height": 1449
-"discussions": ""
-"view_annotation_result_Bounding-Box": "[{'x': 1063.7311537501948, 'y': 297.54852676079395, 'width': 200.24773574690806, 'height': 6.762622219149231, 'rotate': 269.87563516349496, 'class_name': 'ruler'}, ...]"
-
-```
-- *Example 2*
-```
-"image_path_local": "JLP_wruler2.jpg"
+"image_path_local": "ISIC_0261866.jpg"
 "image_width": 1920
 "image_height": 1080
 "discussions": ""
-"view_annotation_result_Bounding-Box": "[{'x': 1021.3929287528508, 'y': 826.535968299397, 'width': 60.26069886280168, 'height': 2.1821350218130195, 'rotate': 326.66664926435146, 'class_name': 'ruler'}, ...]"
+"source": https://challenge2020.isic-archive.com/
+"view_annotation_result_Bounding-Box": "[{'x': 1759.855874766125, 'y': 1031.3401179243506, 'width': 10.339966659282139, 'height': 1.1559341916977368, 'rotate': 270.7618338668707, 'class_name': 'ruler'},...]"
 ```
 
 ### Notable Annotations
