@@ -54,4 +54,4 @@ Below are examples of the annotations for two images from the dataset:
 
 The file `draw_ruler_annotation.py` is one example of how to plot the ruler lines and the scales on the images. In the folder *examples/*, we provide samples of annotated images (in green the ruler lines and in red the rectangle which heigt corresponds to the 1 mm scale of the image).
 
-<img title="a title" alt="ISIC.jpg" src="examples/Claire_Aless7_annotated.png"  width="500"> 
+<img title="a title" alt="ISIC.jpg" src="annotated_examples/ISIC_0220438_annotated.png"  width="500"> 
