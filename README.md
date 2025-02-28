@@ -1,6 +1,6 @@
-# RulerSegmentation test set
+# RulerSegmentation testset
 
-[RulerSegmentation dataset](https://path/to/images)
+The list of ISIC 2020 Challenge public images is included in the `annotated_isic_testset.csv` file. To be downloaded from the ISIC Challenge web site: https://challenge2020.isic-archive.com/ 
 
 ## Dataset Description
 This dataset contains a collection of annotated dermoscopic images primarily used for identifying and segmenting rulers and scales within these images. The annotations are provided in a CSV file, which includes details such as image dimensions and bounding boxes for each annotation, as well as the origin source for the public images. Below is a detailed description of the dataset's structure and contents.
