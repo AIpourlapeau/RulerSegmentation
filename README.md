@@ -48,3 +48,17 @@ Below an examples of the annotations for one of the images from the dataset:
 The file `draw_ruler_annotation.py` is one example of how to plot the ruler lines and the scales on the images. In the folder *examples/*, we provide samples of annotated images (in green the ruler lines and in red the rectangle which heigt corresponds to the 1 mm scale of the image).
 
 <img title="a title" alt="ISIC.jpg" src="annotated_examples/ISIC_0220438_annotated.png"  width="500"> 
+
+### Citation
+
+Please cite our paper: 
+@INPROCEEDINGS{11058815,
+  author={Fricker, Paul and Figueroa, Susely and Lemeunier, Clément and Nguyen, Hang},
+  booktitle={2025 IEEE 38th International Symposium on Computer-Based Medical Systems (CBMS)}, 
+  title={Belle Quantified Dimensions: Precise and Automatic Quantification of Skin Lesion from Dermoscope Calibration Scale}, 
+  year={2025},
+  pages={339-340},
+  doi={10.1109/CBMS65348.2025.00075}}
+
+## Ackownledgement
+This research is supported by [Torus AI](https://torus.ai) and [BelleTorus Corporation](https://belle.ai).
